@@ -17,7 +17,7 @@ const CardWork = () => {
                     <RxArrowRight className="header-icon-container-works"/>
                 </Button>
             </div>
-            <div className="col-md-7 order-1 order-md-2">
+            <div className="col-md-7 order-1 order-md-2 div-img-work-card">
                 <img src="/pexels-vlada-karpovich-4450430.jpg" alt="" width="626" height="500"/>
             </div>
         </div>
