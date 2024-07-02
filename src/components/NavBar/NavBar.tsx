@@ -34,10 +34,12 @@ const NavBar = () => {
             <h1>portifólio.</h1>
             <div className={`div-nav-buttons ${isOpen ? "active-menu" : "deactivate-menu"}`}>
                 <div className={`div-nav-button ${isOpen ? "active-menu" : "deactivate-menu"}`}>
-                    <Button color={!isOpen}>
-                        <span className={`lets-button-nav button-child ${isOpen ? "active-menu" : "deactivate-menu"}`}>Let´s talk</span>
-                        <RxArrowRight className={`lets-icon-nav button-child ${isOpen ? "active-menu" : "deactivate-menu"}`}/>
-                    </Button>
+                    <NavLink to={isOpen ? "/" : "/menu"} className="text-decoration-none">
+                        <Button color={!isOpen} onClick={()=>setIsOpen(!isOpen)}>
+                            <span className={`lets-button-nav button-child ${isOpen ? "active-menu" : "deactivate-menu"}`}>Let´s talk</span>
+                            <RxArrowRight className={`lets-icon-nav button-child ${isOpen ? "active-menu" : "deactivate-menu"}`}/>
+                        </Button>
+                    </NavLink>
                 </div>
                 <div className={`div-nav-button ${isOpen ? "active-menu" : "deactivate-menu"}`}>
                     <NavLink to={isOpen ? "/" : "/menu"} >
