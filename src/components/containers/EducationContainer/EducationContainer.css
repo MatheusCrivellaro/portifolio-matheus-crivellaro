@@ -1,0 +1,15 @@
+.container-education {
+    background: #f9fafb;
+    display: flex;
+    margin: 72px 0;
+}
+
+.div-title {
+    padding-right: 40px;
+}
+
+.div-title h1 {
+    color: #030712;
+    font-size: 40px;
+    font-weight: 600;
+}

@@ -1,0 +1,38 @@
+.education-button {
+    background: #e5e7eb;
+    color: #030712;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.education-button:hover {
+    background: #d1d5db;
+}
+
+.card-education {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.card-education h1 {
+    color: #030712;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-education h2 {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 400;
+}

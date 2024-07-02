@@ -1,0 +1,30 @@
+.card-work {
+    margin-bottom: 60px;
+    padding: 0 30px;
+}
+
+.card-work img {
+    border-radius: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: auto;
+}
+
+.card-work h1 {
+    font-size: 29px;
+    color: #030712;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.card-work h2 {
+    font-size: 27px;
+    color: #374151;
+    font-weight: 400;
+}
+
+.details-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.insights-container {
+    margin: 72px 0;
+}
+
+.header-insights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-insights h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.header-insights span {
+    margin-right: 12px;
+}
+
+.header-icon-container-insights {
+    font-size: 20px;
+}

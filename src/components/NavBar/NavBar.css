@@ -1,0 +1,46 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 72px;
+    transition: 0.3s;
+}
+
+.container-nav h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.lets-button-nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.lets-icon-nav {
+    font-size: 20px;
+}
+
+.menu-icon {
+    font-size: 20px;
+}
+
+.div-nav-buttons {
+    display: flex;
+}
+
+.div-nav-button {
+    padding-left: 16px;
+    transition: 0.3s;
+}
+
+.active-menu {
+    background: #030712;
+    color: #e5e7eb;
+}
+
+.deactivate-menu {
+    background: #f9fafb;
+    color: #030712;
+}

@@ -1,0 +1,22 @@
+.card-insight img {
+    border-radius: 20px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.card-insight h1 {
+    color: #030712;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.card-insight h2 {
+    color: #374151;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-insight {
+    margin-bottom: 40px;
+}

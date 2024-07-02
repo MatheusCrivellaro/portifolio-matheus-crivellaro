@@ -1,0 +1,41 @@
+.container-tellme {
+    text-align: center;
+    padding: 72px 0;
+}
+
+.container-tellme h1 {
+    color: #030712;
+    font-size: 104px;
+    font-weight: 700;
+    margin-bottom: 72px;
+}
+
+.container-tellme h1 span {
+    color: #9ca3af;
+}
+
+.container-tellme h2 {
+    color: #030712;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.div-title-tellme {
+    padding: 0 136px;
+}
+
+.links-tellme {
+    display: flex;
+    justify-content: center;
+}
+
+.links-tellme a {
+    color: #111827;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub-links-tellme {
+    display: flex;
+    justify-content: space-between;
+}

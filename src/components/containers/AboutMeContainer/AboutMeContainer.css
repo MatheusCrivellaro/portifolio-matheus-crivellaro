@@ -1,0 +1,33 @@
+.container-aboutme {
+    display: flex;
+    padding: 72px 0;
+}
+
+.container-aboutme h1 {
+    color: #030712;
+    font-size: 72px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.container-aboutme h2 {
+    color: #374151;
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.container-aboutme span {
+    margin-right: 12px;
+}
+
+.sub-div-aboutme {
+    padding-right: 72px;
+}
+
+.itens-aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+}
