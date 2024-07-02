@@ -10,15 +10,27 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
 
+    const [isSticky, setIsSticky] = useState(false);
+
+    const handleScroll = () => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            setIsSticky(true);
+        } else {
+            setIsSticky(false);
+        }
+    };
+
     useEffect(() => {
 
         if (location.pathname === '/menu')
             setIsOpen(true);
-
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
     }, [location.pathname])
 
     return (
-        <nav className={`container-nav ${isOpen ? "active-menu" : "deactivate-menu"}`}>
+        <nav className={`container-nav ${isSticky ? 'navbar-fixed-top' : ''} ${isOpen ? "active-menu" : "deactivate-menu"}`}>
             <h1>portifólio.</h1>
             <div className={`div-nav-buttons ${isOpen ? "active-menu" : "deactivate-menu"}`}>
                 <div className={`div-nav-button ${isOpen ? "active-menu" : "deactivate-menu"}`}>
