@@ -28,7 +28,7 @@ const NavBar = () => {
                     </Button>
                 </div>
                 <div className={`div-nav-button ${isOpen ? "active-menu" : "deactivate-menu"}`}>
-                    <NavLink to={"/"} >
+                    <NavLink to={isOpen ? "/" : "/menu"} >
                         <Button color={!isOpen} onClick={()=>setIsOpen(!isOpen)}>
                             <CgMenu className={`menu-icon button-child ${isOpen ? "active-menu" : "deactivate-menu"}`}/>
                         </Button>
