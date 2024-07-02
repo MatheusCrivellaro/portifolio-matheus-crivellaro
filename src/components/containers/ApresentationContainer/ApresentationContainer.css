@@ -4,10 +4,23 @@
     padding: 72px 0;
 }
 
+@media (max-width: 768px) {
+    .container-apresentation {
+        padding: 40px 0;
+    }
+}
+
 .container-apresentation h1 {
     font-weight: 700;
     font-size: 104px;
     margin-bottom: 56px;
+}
+
+@media (max-width: 768px) {
+    .container-apresentation h1 {
+        font-size: 72px;
+        margin-bottom: 24px;
+    }
 }
 
 .container-apresentation h2 {

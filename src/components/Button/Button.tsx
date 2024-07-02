@@ -1,25 +1,20 @@
 import './Button.css'
-import {ReactNode, useState} from "react";
+import {ReactNode} from "react";
 
 type props = {
     children: ReactNode,
     size?: number,
     color?: boolean
     onClick?: () => void;
+    border?: boolean
+    expansive?: boolean
 }
 
-const Button = ({ onClick, children, size, color }: props) => {
-
-    const [colorState, setColorState] = useState(color);
-
-    const handleClick = () => {
-        setColorState(!colorState);
-        if (onClick) {
-            onClick();
-        }
-    }
+const Button = ({ onClick, children, size, color, border, expansive }: props) => {
 
     const colorConfig = color ? (color ? 'button-white' : 'button-black') : 'button-black';
+    const borderConfig = border ? 'button-border-white' : 'button-border-black';
+    const expansiveConfig = expansive ? "button-expansive" : "button-not-expansive";
     let sizeConfig: string = "button-sm";
 
     if (size) {
@@ -33,10 +28,10 @@ const Button = ({ onClick, children, size, color }: props) => {
             sizeConfig = "button-lg";
     }
 
-    const classConfig = sizeConfig + " " + colorConfig
+    const classConfig = sizeConfig + " " + colorConfig + " " + borderConfig + " " + expansiveConfig
 
     return (
-        <button className={`button-basic ${classConfig}`} onClick={onClick ? handleClick : undefined}>
+        <button className={`button-basic ${classConfig}`} onClick={onClick}>
             {children}
         </button>
     )

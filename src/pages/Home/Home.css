@@ -1,5 +1,11 @@
 .container-home {
     font-family: "Poppins", sans-serif;
     padding: 0 72px;
-    background: #f9fafb;
+    background:#F9FAFB;
+}
+
+@media (max-width: 768px) {
+    .container-home {
+        padding: 0 20px;
+    }
 }

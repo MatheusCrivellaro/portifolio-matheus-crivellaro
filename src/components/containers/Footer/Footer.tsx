@@ -1,30 +1,42 @@
 import './Footer.css'
 
-const Footer = () => {
+type props = {
+    id: string
+}
+
+const Footer = ({ id }:props) => {
     return (
-        <div className="container-footer">
+        <div className="container-footer" id={id}>
             <h1>portifólio.</h1>
             <h2>A stunning digital designer portfolio website template for you.</h2>
             <div className="row">
-                <div className="div-buttons-footer col-5">
-                    <button className="button-footer">GitHub</button>
-                    <button className="button-footer">Linkedin</button>
-                    <button className="button-footer">Instagram</button>
+                <div className="div-buttons-footer col-md-5 col-12">
+                    <button className="button-footer col-6 col-md-12">GitHub</button>
+                    <button className="button-footer col-6 col-md-12">Linkedin</button>
+                    <button className="button-footer col-6 col-md-12">Instagram</button>
                 </div>
-                <div className="container-links-footer col-7">
+                <div className="container-links-footer col-md-7 col-12">
                     <h3>Page list</h3>
                     <div className="div-page-list row">
-                        <a href="" className="col-3">Home 1</a>
-                        <a href="" className="col-3">Home 2</a>
-                        <a href="" className="col-3">Home 3</a>
-                        <a href="" className="col-3">About 1</a>
-                        <a href="" className="col-3">About 2</a>
-                        <a href="" className="col-3">About 3</a>
-                        <a href="" className="col-3">Works 1</a>
-                        <a href="" className="col-3">Works 2</a>
-                        <a href="" className="col-3">Works 3</a>
-                        <a href="" className="col-3">Insights</a>
-                        <a href="" className="col-3">Contacts</a>
+                        <div className="col-md-3 col-6 group-link-footer">
+                            <a href="" >Home 1</a>
+                            <a href="" >Home 2</a>
+                            <a href="" >Home 3</a>
+                        </div>
+                        <div className="col-md-3 col-6 group-link-footer">
+                            <a href="" >About 1</a>
+                            <a href="" >About 2</a>
+                            <a href="" >About 3</a>
+                        </div>
+                        <div className="col-md-3 col-6 group-link-footer">
+                            <a href="" >Works 1</a>
+                            <a href="" >Works 2</a>
+                            <a href="" >Works 3</a>
+                        </div>
+                        <div className="col-md-3 col-6 group-link-footer">
+                            <a href="" >Insights</a>
+                            <a href="" >Contacts</a>
+                        </div>
                     </div>
                 </div>
                 <h4>©2023 All Rights Reserved. Designed with 🤍</h4>

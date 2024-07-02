@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
     padding: 24px 72px;
-    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .container-nav {
+        padding: 20px;
+    }
 }
 
 .navbar-fixed-top {
@@ -37,15 +42,14 @@
 
 .div-nav-button {
     padding-left: 16px;
-    transition: 0.3s;
 }
 
 .active-menu {
     background: #030712;
-    color: #e5e7eb;
+    color: #F9FAFB;
 }
 
 .deactivate-menu {
-    background: #f9fafb;
+    background: #F9FAFB;
     color: #030712;
 }

@@ -19,4 +19,11 @@
 
 .card-insight {
     margin-bottom: 40px;
+    padding: 14px;
+}
+
+@media (max-width: 768px) {
+    .card-insight {
+        padding: 0;
+    }
 }

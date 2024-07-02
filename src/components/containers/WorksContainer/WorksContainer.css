@@ -2,20 +2,33 @@
     padding: 72px 0;
 }
 
+@media (max-width: 768px) {
+    .container-works {
+        padding: 40px 0;
+    }
+}
+
 .header-icon-container-works {
     font-size: 20px;
 }
 
-.header-works {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 0;
+.container-works h1 {
+    color: #030712;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
-.header-works h1 {
-    color: #030712;
-    font-size: 50px;
+@media (max-width: 768px) {
+    .container-works h1 {
+        color: #030712;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+.div-button-works {
+    display: flex;
+    justify-content: end;
 }
 
 .header-works span {
@@ -25,4 +38,5 @@
 .div-cards-works {
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }

@@ -1,0 +1,35 @@
+.item-select-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin-item-select-menu {
+    margin-bottom: 14px;
+}
+
+.item-select-menu-title {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.icon-container-select {
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.div-selector-menu h1 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #f9fafb;
+    margin-right: 16px;
+    text-align: end;
+}
+
+.div-selector-menu h2 {
+    color: #6B7280;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}

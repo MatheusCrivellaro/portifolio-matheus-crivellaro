@@ -5,19 +5,20 @@ import {ReactNode} from "react";
 
 type props = {
     children: ReactNode;
+    id: string
 }
 
-const InsightsContainer = ({ children }: props) => {
+const InsightsContainer = ({ children, id }: props) => {
     return (
-        <div className="insights-container">
-            <div className="header-insights">
-                <h1>Insights </h1>
-                <Button size={3} color={true}>
+        <div className="insights-container row" id={id}>
+            <h1 className="order-1 col-md-6">Insights</h1>
+            <div className="div-button-insights order-3 order-md-2 col-md-6">
+                <Button size={3} color={true} expansive={true}>
                     <span>View All Insights</span>
                     <RxArrowRight className="header-icon-container-insights"/>
                 </Button>
             </div>
-            <div className="row">
+            <div className="cards-container-insight row order-2 order-md-3">
                 {children}
             </div>
         </div>

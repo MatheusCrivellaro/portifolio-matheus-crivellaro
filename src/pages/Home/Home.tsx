@@ -14,27 +14,26 @@ const Home = () => {
     return (
         <div>
             <div className="container-home">
-                <ApresentationContainer/>
-                <WorksContainer>
+                <ApresentationContainer id="apresentation"/>
+                <WorksContainer id="works">
                     <CardWork/>
                     <CardWork/>
                 </WorksContainer>
-                <AboutMeContainer/>
-                <EducationContainer>
+                <AboutMeContainer id="about-me"/>
+                <EducationContainer id="education">
                     <CardEducation/>
                     <CardEducation/>
                     <CardEducation/>
                     <CardEducation/>
                 </EducationContainer>
-                <InsightsContainer>
-                    <CardInsight/>
+                <InsightsContainer id="insights">
                     <CardInsight/>
                     <CardInsight/>
                     <CardInsight/>
                 </InsightsContainer>
-                <TellMeContainer/>
+                <TellMeContainer id="tell-me"/>
             </div>
-            <Footer />
+            <Footer id="footer"/>
         </div>
     )
 }

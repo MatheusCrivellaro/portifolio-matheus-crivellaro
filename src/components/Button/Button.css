@@ -29,6 +29,13 @@
     border-radius: 64px;
 }
 
+@media (max-width: 768px) {
+    .button-expansive {
+        text-align: center;
+        width: 100%;
+    }
+}
+
 .button-black {
     background: #030712;
     color: #F9FAFB;
@@ -67,4 +74,12 @@
 
 .button-white .button-child {
     transition: 0.3s;
+}
+
+.button-border-white {
+    border: #F9FAFB 1px solid;
+}
+
+.button-border-black {
+    border: #030712 1px solid;
 }

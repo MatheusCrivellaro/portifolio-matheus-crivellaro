@@ -1,5 +1,11 @@
 .insights-container {
-    margin: 72px 0;
+    padding: 72px 0;
+}
+
+@media (max-width: 768px) {
+    .insights-container {
+        padding: 20px 0 40px;
+    }
 }
 
 .header-insights {
@@ -9,15 +15,36 @@
     margin-bottom: 40px;
 }
 
-.header-insights h1 {
+.insights-container h1 {
+    color: #030712;
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
-.header-insights span {
+@media (max-width: 768px) {
+    .insights-container h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+}
+
+.insights-container span {
     margin-right: 12px;
 }
 
 .header-icon-container-insights {
     font-size: 20px;
+}
+
+.cards-container-insight {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-button-insights {
+    display: flex;
+    justify-content: end;
 }

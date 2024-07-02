@@ -4,6 +4,12 @@
     margin: 72px 0;
 }
 
+@media (max-width: 768px) {
+    .container-education {
+        margin: 40px 0;
+    }
+}
+
 .div-title {
     padding-right: 40px;
 }
@@ -12,4 +18,15 @@
     color: #030712;
     font-size: 40px;
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .div-title h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+}
+
+.div-card-insights {
+    padding: 0;
 }

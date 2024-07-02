@@ -1,0 +1,24 @@
+.button-suspense {
+    margin: 24px 72px 0 0;
+}
+
+@media (max-width: 768px) {
+    .button-suspense {
+        margin: 0px
+    }
+}
+
+.active-button-suspense {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .active-button-suspense {
+        margin: 20px
+    }
+}
+
+.deactive-button-suspense {
+}

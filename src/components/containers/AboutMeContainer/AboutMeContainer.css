@@ -3,11 +3,24 @@
     padding: 72px 0;
 }
 
+@media (max-width: 768px) {
+    .container-aboutme {
+        padding: 40px 0;
+    }
+}
+
 .container-aboutme h1 {
     color: #030712;
     font-size: 72px;
     margin-bottom: 24px;
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container-aboutme h1 {
+        font-size: 56px;
+        margin-bottom: 16px;
+    }
 }
 
 .container-aboutme h2 {
@@ -25,9 +38,32 @@
     padding-right: 72px;
 }
 
+@media (max-width: 768px) {
+    .sub-div-aboutme {
+        padding: 0;
+    }
+}
+
 .itens-aboutme {
     display: flex;
     flex-direction: column;
     justify-content: end;
     text-align: end;
+}
+
+@media (max-width: 768px) {
+    .itens-aboutme {
+        margin: 32px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .itens-aboutme p{
+        display: flex;
+        justify-content: start;
+    }
 }

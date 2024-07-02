@@ -3,15 +3,16 @@ import {ReactNode} from "react";
 
 type props = {
     children: ReactNode
+    id: string
 }
 
-const EducationContainer = ({ children }: props) => {
+const EducationContainer = ({ children, id }: props) => {
     return (
-        <div className="container-education row">
-            <div className="div-title col-4">
+        <div className="container-education row" id={id}>
+            <div className="div-title col-12 col-md-4">
                 <h1>Education & Courses</h1>
             </div>
-            <div className="col-8">
+            <div className="div-card-insights col-12 col-md-8">
                 {children}
             </div>
         </div>
