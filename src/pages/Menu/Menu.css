@@ -1,6 +1,13 @@
 .menu {
     background: #030712;
     padding: 0 72px;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 0 20px;
+    }
 }
 
 .div-selector-menu {
@@ -16,13 +23,35 @@
 
 .div-links-contacts {
     display: flex;
+    width: 100%;
 }
 
 .link-contacts {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     color: #f9fafb;
     font-size: 18px;
     font-weight: 400;
-    margin-right: 40px;
+}
+
+.link-contacts p {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .link-contacts p {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .link-contacts {
+        font-size: 16px;
+        margin-bottom: 22px;
+        justify-content: space-between;
+    }
 }
 
 .link-contacts a {
@@ -38,4 +67,14 @@
     font-weight: 600;
     color: #6B7280;
     margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .div-contacts-menu h3 {
+        font-size: 22px;
+    }
+}
+
+.icon-link-contacts {
+    font-size: 22px;
 }

@@ -14,19 +14,19 @@ const Menu = () => {
             </div>
             <div className="div-contacts-menu">
                 <h3>Fallow me.</h3>
-                <div className="div-links-contacts">
-                    <div className="link-contacts">
-                        <a href="">INSTAGRAM</a>
-                        <RxArrowTopRight/>
-                    </div>
-                    <div className="link-contacts">
-                        <a href="">LINKEDIN</a>
-                        <RxArrowTopRight/>
-                    </div>
-                    <div className="link-contacts">
-                        <a href="">GITHUB</a>
-                        <RxArrowTopRight/>
-                    </div>
+                <div className="div-links-contacts row">
+                    <a className="link-contacts col-6 col-md-4" href="">
+                        <p>INSTAGRAM</p>
+                        <RxArrowTopRight className="icon-link-contacts"/>
+                    </a>
+                    <a className="link-contacts col-6 col-md-4" href="">
+                        <p>LINKEDIN</p>
+                        <RxArrowTopRight className="icon-link-contacts"/>
+                    </a>
+                    <a className="link-contacts col-6 col-md-4" href="">
+                        <p>GITHUB</p>
+                        <RxArrowTopRight className="icon-link-contacts"/>
+                    </a>
                 </div>
             </div>
         </div>

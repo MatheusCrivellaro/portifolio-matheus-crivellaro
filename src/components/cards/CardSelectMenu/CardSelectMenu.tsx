@@ -17,11 +17,11 @@ const CardSelectMenu = ({ name, number, margin, href }:props) => {
 
     return (
         <div className={`item-select-menu ${margin ? "margin-item-select-menu" : ""}`}>
-            <div className="item-select-menu-title">
+            <a className="item-select-menu-title" href={href}>
                 <h1>{name}</h1>
                 <h2>({number})</h2>
-            </div>
-            <a href={"/#" + href}>
+            </a>
+            <a href={"/#" + href} className="d-none d-md-block">
                 <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
                     <RxArrowRight className="icon-container-select"/>
                 </Button>

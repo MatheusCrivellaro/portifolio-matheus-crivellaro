@@ -1,10 +1,10 @@
 .container-works {
-    padding: 72px 0;
+    margin: 72px 0;
 }
 
 @media (max-width: 768px) {
     .container-works {
-        padding: 40px 0;
+        margin: 40px 0;
     }
 }
 
@@ -12,14 +12,22 @@
     font-size: 20px;
 }
 
-.container-works h1 {
+.title-container-works {
     color: #030712;
     font-size: 40px;
     margin-bottom: 40px;
+    padding: 0;
+    font-weight: 600;
+}
+
+@media(min-width: 1200px) {
+    .title-container-works {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 768px) {
-    .container-works h1 {
+    .title-container-works {
         color: #030712;
         font-size: 32px;
         margin-bottom: 32px;
