@@ -11,10 +11,10 @@ type props = {
 const InsightsContainer = ({ children, id }: props) => {
     return (
         <div className="insights-container row" id={id}>
-            <h1 className="order-1 col-md-6">Conhecimentos</h1>
+            <h1 className="order-1 col-md-6">Insights</h1>
             <div className="div-button-insights order-3 order-md-2 col-md-6">
                 <Button size={3} color={true} expansive={true}>
-                    <span>Ver todos os Conhecimentos</span>
+                    <span>Ver todos os Insights</span>
                     <RxArrowRight className="header-icon-container-insights"/>
                 </Button>
             </div>
