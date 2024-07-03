@@ -15,7 +15,7 @@ const NavBar = () => {
     useEffect(() => {
 
         if (location.pathname === '/menu')
-            contextoTema?.alternarTema();
+            contextoTema?.temaAlter("escuro");
     }, [contextoTema, location.pathname])
 
     return (
@@ -32,7 +32,7 @@ const NavBar = () => {
                                 className={`lets-icon-nav button-child ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}/>
                         </Button>
                     </div>
-                    <div className={`div-nav-button ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}>
+                    <div className={`${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}>
                         <SuspenseButton />
                     </div>
                 </div>

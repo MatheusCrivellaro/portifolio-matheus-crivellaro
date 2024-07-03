@@ -4,7 +4,8 @@ type Tema = "escuro" | "claro";
 
 interface TemaNavContext {
     tema: Tema,
-    alternarTema: () => void
+    alternarTema: () => void,
+    temaAlter: (newTema: Tema) => void
 }
 
 export const TemaNavContext = createContext<TemaNavContext | null>(null);
@@ -21,8 +22,13 @@ export const TemaNavProvider = ({children}: TemaProviderProps) => {
             (temaAtual) => (temaAtual === "claro" ? "escuro" : "claro")
         );
     }
+
+    const temaAlter = (newTema: Tema) => {
+        setTema(newTema)
+    }
+
     return (
-        <TemaNavContext.Provider value={{ tema, alternarTema }}>
+        <TemaNavContext.Provider value={{ tema, alternarTema, temaAlter }}>
             {children}
         </TemaNavContext.Provider>
     )

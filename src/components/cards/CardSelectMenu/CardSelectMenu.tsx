@@ -17,7 +17,7 @@ const CardSelectMenu = ({ name, number, margin, href }:props) => {
 
     return (
         <div className={`item-select-menu ${margin ? "margin-item-select-menu" : ""}`}>
-            <a className="item-select-menu-title" href={href}>
+            <a className="item-select-menu-title" href={"../#" + href}>
                 <h1>{name}</h1>
                 <h2>({number})</h2>
             </a>
