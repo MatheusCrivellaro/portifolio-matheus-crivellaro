@@ -32,7 +32,7 @@ const SuspenseButton = () => {
 
     return (
         <NavLink to={contextoTema?.tema==="escuro" ? "/" : "/menu"} className={`text-decoration-none button-suspense ${isSticky ? "active-button-suspense" : "deactive-button-suspense"}`}>
-            <Button color={contextoTema?.tema==="claro"} onClick={() => contextoTema?.alternarTema()} border={false}>
+            <Button color={contextoTema?.tema==="claro"} onClick={() => contextoTema?.alternarTema()} border={true}>
                 <CgMenu
                     className={`menu-icon button-child ${contextoTema?.tema==="escuro" ? "active-menu" : "deactivate-menu"}`}/>
             </Button>

@@ -25,7 +25,7 @@ const NavBar = () => {
                 <h1>portifólio.</h1>
                 <div className={`div-nav-buttons ${contextoTema?.tema==="escuro" ? "active-menu" : "deactivate-menu"}`}>
                     <div className={`div-nav-button d-md-block d-none ${contextoTema?.tema==="escuro" ? "active-menu" : "deactivate-menu"}`}>
-                        <Button color={contextoTema?.tema === "claro"} onClick={() => contextoTema?.alternarTema} border={false}>
+                        <Button color={contextoTema?.tema === "claro"} onClick={() => contextoTema?.alternarTema} border={true}>
                                 <span
                                     className={`lets-button-nav button-child ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}>Vamos conversar</span>
                             <RxArrowRight

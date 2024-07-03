@@ -1,4 +1,7 @@
 import './Footer.css'
+import {IoLogoGithub} from "react-icons/io";
+import {FaInstagram, FaLinkedin} from "react-icons/fa";
+import {MdOutlineAlternateEmail} from "react-icons/md";
 
 type props = {
     id: string
@@ -11,9 +14,22 @@ const Footer = ({ id }:props) => {
             <h2>Me acompanhe nas demais redes!</h2>
             <div className="row">
                 <div className="div-buttons-footer col-md-5 col-12">
-                    <button className="button-footer col-6 col-md-12">GitHub</button>
-                    <button className="button-footer col-6 col-md-12">Linkedin</button>
-                    <button className="button-footer col-6 col-md-12">Instagram</button>
+                    <button className="button-footer col-6 col-md-12">
+                        <IoLogoGithub className="icon-button-footer"/>
+                        <a href="https://github.com/MatheusCrivellaro">GitHub</a>
+                    </button>
+                    <button className="button-footer col-6 col-md-12">
+                        <FaLinkedin className="icon-button-footer"/>
+                        <a href="https://www.linkedin.com/in/matheus-crivellaro/">Linkedin</a>
+                    </button>
+                    <button className="button-footer col-6 col-md-12">
+                        <FaInstagram className="icon-button-footer"/>
+                        <a href="https://www.instagram.com/matcriv_">Instagram</a>
+                    </button>
+                    <p className="button-footer col-6 col-md-12">
+                        <MdOutlineAlternateEmail className="icon-button-footer"/>
+                        <span>matheuscriv@gmail.com</span>
+                    </p>
                 </div>
                 <div className="container-links-footer col-md-7 col-12">
                     <h3>Page list</h3>

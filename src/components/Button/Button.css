@@ -43,7 +43,7 @@
 .button-black {
     background: #030712;
     color: #F9FAFB;
-    border: #030712 solid 1px;
+    border: #F9FAFB 1px solid;
 }
 
 .button-black:hover .button-child {
@@ -78,10 +78,6 @@
 
 .button-white .button-child {
     transition: 0.3s;
-}
-
-.button-border-white {
-    border: #F9FAFB 1px solid;
 }
 
 .button-border-black {
