@@ -10,7 +10,7 @@ const EducationContainer = ({ children, id }: props) => {
     return (
         <div className="container-education row" id={id}>
             <div className="div-title col-12 col-md-4">
-                <h1>Education & Courses</h1>
+                <h1>Formações & Cursos</h1>
             </div>
             <div className="div-card-insights col-12 col-md-8">
                 {children}

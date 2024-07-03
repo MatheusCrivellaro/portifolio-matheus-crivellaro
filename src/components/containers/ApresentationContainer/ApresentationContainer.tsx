@@ -10,17 +10,17 @@ const ApresentationContainer = ({ id }:props) => {
 
     return (
         <div className="container-apresentation" id={id}>
-            <h2>Hello! I´m Matheus</h2>
-            <h1>Designing digital product with emphasis on <span>visual design</span></h1>
+            <h2>Olá! Sou o Matheus</h2>
+            <h1>Developer FullStack com ênfase em <span>Java e React</span></h1>
             <div className="sub-div-apresentation row">
                 <div className="col-12 col-md-6 order-2 order-md-1">
                     <Button color={false} size={4} expansive={true}>
-                        <span className="lets-button-apresentation">Let´s Talk</span>
+                        <span className="lets-button-apresentation">Vamos conversar</span>
                         <RxArrowRight className="lets-icon-apresentation"/>
                     </Button>
                 </div>
                 <p className="col-12 col-md-6 order-1 order-md-2">
-                    A multidisciplinary designer harnessing the power of design to achieve online goals.
+                    Desenvolvedor Full Stack que utiliza a programação para transformar ideias digitais em realidade.
                 </p>
             </div>
         </div>

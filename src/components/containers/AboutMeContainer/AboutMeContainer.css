@@ -64,6 +64,6 @@
 @media (max-width: 768px) {
     .itens-aboutme p{
         display: flex;
-        justify-content: start;
+        justify-content: end;
     }
 }

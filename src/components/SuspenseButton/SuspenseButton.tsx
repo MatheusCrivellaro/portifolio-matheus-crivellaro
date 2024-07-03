@@ -15,7 +15,7 @@ const SuspenseButton = () => {
 
     const handleScroll = () => {
         const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        if (scrollTop > 45) {
+        if (scrollTop > 0) {
             setIsSticky(true);
         } else {
             setIsSticky(false);
@@ -28,7 +28,7 @@ const SuspenseButton = () => {
             contextoTema?.alternarTema();
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [location.pathname])
+    }, [contextoTema, location.pathname])
 
     return (
         <NavLink to={contextoTema?.tema==="escuro" ? "/" : "/menu"} className={`text-decoration-none button-suspense ${isSticky ? "active-button-suspense" : "deactive-button-suspense"}`}>

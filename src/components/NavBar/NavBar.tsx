@@ -16,7 +16,7 @@ const NavBar = () => {
 
         if (location.pathname === '/menu')
             contextoTema?.alternarTema();
-    }, [location.pathname])
+    }, [contextoTema, location.pathname])
 
     return (
         <div>
@@ -27,7 +27,7 @@ const NavBar = () => {
                     <div className={`div-nav-button d-md-block d-none ${contextoTema?.tema==="escuro" ? "active-menu" : "deactivate-menu"}`}>
                         <Button color={contextoTema?.tema === "claro"} onClick={() => contextoTema?.alternarTema} border={false}>
                                 <span
-                                    className={`lets-button-nav button-child ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}>Let´s talk</span>
+                                    className={`lets-button-nav button-child ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}>Vamos conversar</span>
                             <RxArrowRight
                                 className={`lets-icon-nav button-child ${contextoTema?.tema === "escuro" ? "active-menu" : "deactivate-menu"}`}/>
                         </Button>

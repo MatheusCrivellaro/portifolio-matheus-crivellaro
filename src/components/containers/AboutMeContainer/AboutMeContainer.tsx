@@ -9,21 +9,19 @@ type props = {
 const AboutMeContainer = ({ id }:props) => {
     return (
         <div className="container-aboutme row" id={id}>
-            <h1 className="order-1">A visual designer focused on creating emotional digital experience</h1>
-            <h2 className="order-2 order-md-3 col-12 col-md-9">Concentrate on your primary objective which is expanding your business, and leave it to me to ensure
-                that your business is efficiently portrayed in the digital realm and distinguishes itself from the
-                rivals.</h2>
+            <h1 className="order-1">Desenvolvedor Full Stack especializado em criar soluções digitais eficazes</h1>
+            <h2 className="order-2 order-md-3 col-12 col-md-9">Como desenvolvedor Full Stack, meu papel é transformar suas ideias em soluções digitais funcionais e eficazes. Enquanto você se concentra em crescer seu negócio, eu cuido de todo o aspecto técnico, utilizando Java e React para garantir que sua aplicação seja robusta, escalável e alinhada às suas necessidades.</h2>
             <div className="order-4">
                 <Button color={true} size={3} expansive={true}>
-                    <span>About me</span>
+                    <span>Sobre mim</span>
                     <RxArrowRight className="header-icon-container-works"/>
                 </Button>
             </div>
             <div className="itens-aboutme order-3  col-12 col-md-3 row">
-                <p className="col-6 col-md-12">UIUX</p>
-                <p className="col-6 col-md-12">BRANDING</p>
-                <p className="col-6 col-md-12">MOBILE APP</p>
-                <p className="col-6 col-md-12"  >WEBSITE DESIGN</p>
+                <p className="col-6 col-md-12">API REST</p>
+                <p className="col-6 col-md-12">SPRING BOOT</p>
+                <p className="col-6 col-md-12">SITES RESPONSIVOS</p>
+                <p className="col-6 col-md-12"  >SISTEMAS DE INFORMAÇÃO</p>
             </div>
         </div>
     )

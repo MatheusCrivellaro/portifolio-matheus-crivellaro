@@ -39,6 +39,10 @@
     justify-content: end;
 }
 
+.div-button-works span {
+    margin-right: 12px;
+}
+
 .header-works span {
     margin-right: 12px;
 }

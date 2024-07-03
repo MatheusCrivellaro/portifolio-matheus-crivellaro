@@ -17,7 +17,6 @@ const Home = () => {
                 <ApresentationContainer id="apresentation"/>
                 <WorksContainer id="works">
                     <CardWork/>
-                    <CardWork/>
                 </WorksContainer>
                 <AboutMeContainer id="about-me"/>
                 <EducationContainer id="education">
