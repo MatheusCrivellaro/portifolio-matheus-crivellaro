@@ -10,7 +10,7 @@ const Menu = () => {
                 <CardSelectMenu name={"Home"} number={"01"} margin={true} href="apresentation"/>
                 <CardSelectMenu name={"Sobre mim"} number={"02"} margin={true} href="about-me"/>
                 <CardSelectMenu name={"Projetos"} number={"03"} margin={true} href="works"/>
-                <CardSelectMenu name={"Conhecimentos"} number={"04"} margin={true} href="insights"/>
+                <CardSelectMenu name={"Insights"} number={"04"} margin={true} href="insights"/>
             </div>
             <div className="div-contacts-menu">
                 <h3>Me siga.</h3>
