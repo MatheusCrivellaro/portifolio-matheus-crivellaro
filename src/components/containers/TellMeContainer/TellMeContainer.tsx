@@ -15,7 +15,7 @@ const TellMeContainer = ({ id }:props) => {
                 <div className="sub-links-tellme col-md-4 col-9">
                     <a href="/#about-me">Sobre mim</a>
                     <a href="/#works">Projetos</a>
-                    <a href="/#insights">Conhecimentos</a>
+                    <a href="/#insights">Insights</a>
                 </div>
             </div>
         </div>
