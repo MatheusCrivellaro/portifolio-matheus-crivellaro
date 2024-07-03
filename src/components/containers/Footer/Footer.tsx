@@ -39,7 +39,7 @@ const Footer = ({ id }:props) => {
                         </div>
                     </div>
                 </div>
-                <h4>©2023 All Rights Reserved. Designed with 🤍</h4>
+                <h4>©2023 All Rights Reserved.</h4>
             </div>
         </div>
     )
