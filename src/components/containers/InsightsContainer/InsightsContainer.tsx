@@ -14,6 +14,8 @@ const InsightsContainer = ({id}: props) => {
     const handleClick = () => {
         if (openMore!)
             window.location.hash = "insightsmorecontainer";
+        else
+            window.location.hash = id;
         setOpenMore(prevState => !prevState);
     }
 
