@@ -18,7 +18,7 @@ const CardWork = () => {
                 </div>
             </div>
             <div className="card-work-img-div col-md-7 col-12 order-1 order-md-2">
-                <img src="/pexels-vlada-karpovich-4450430.jpg" alt="" className="card-work-img"/>
+                <img src="/pexels-goumbik-574073.jpg" alt="" className="card-work-img"/>
             </div>
         </div>
     )
