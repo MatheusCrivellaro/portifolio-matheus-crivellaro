@@ -1,8 +1,3 @@
-.card-insight img {
-    border-radius: 20px;
-    margin-bottom: 24px;
-    width: 100%;
-}
 
 .image-insight {
     border-radius: 20px;
@@ -11,6 +6,9 @@
     height: 400px;
     background-position: center;
     background-size: cover;
+}
+
+.img-insight-6 {
     background-image: url("/public/pexels-luis-gomes-166706-546819.jpg");
 }
 
