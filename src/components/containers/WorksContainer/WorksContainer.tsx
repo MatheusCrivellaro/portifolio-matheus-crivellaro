@@ -11,7 +11,7 @@ type props = {
 const WorksContainer = ({ children, id }: props) => {
     return (
         <div className="container-works row" id={id}>
-            <h1 className="title-container-works ol-12 col-md-6 order-1">Projetos Selecionados</h1>
+            <h1 className="title-container-works ol-12 col-md-6 order-1">Meus Projetos</h1>
             <div className="col-12 col-md-6 order-4 order-md-2 div-button-works">
                 <Button color={true} size={3} expansive={true}>
                     <span>

@@ -2,6 +2,18 @@
     padding: 72px 0;
 }
 
+.insights-more-container {
+    display: flex;
+    height: auto;
+    transition: 0.3s;
+}
+
+.insights-notMore-container {
+    height: 0;
+    display: none;
+    transition: 0.3s;
+}
+
 @media (max-width: 768px) {
     .insights-container {
         padding: 20px 0 40px;
@@ -47,4 +59,14 @@
 .div-button-insights {
     display: flex;
     justify-content: end;
+}
+
+.div-button-insights a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .div-button-insights a {
+        width: 100%;
+    }
 }

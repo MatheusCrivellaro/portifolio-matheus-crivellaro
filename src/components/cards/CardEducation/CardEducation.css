@@ -10,6 +10,7 @@
     height: 45px;
     cursor: pointer;
     transition: 0.3s;
+    margin-left: 15px;
 }
 
 .education-button:hover {
