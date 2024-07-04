@@ -8,8 +8,28 @@
     background-size: cover;
 }
 
-.img-insight-6 {
+.img-insight-1 {
+    background-image: url("/public/pexels-tranmautritam-326502.jpg");
+}
+
+.img-insight-2 {
+    background-image: url("/public/pexels-pavel-danilyuk-5496463.jpg");
+}
+
+.img-insight-3 {
     background-image: url("/public/pexels-luis-gomes-166706-546819.jpg");
+}
+
+.img-insight-4 {
+    background-image: url("/public/pexels-goumbik-574077.jpg");
+}
+
+.img-insight-5 {
+    background-image: url("/public/pexels-goumbik-574073.jpg");
+}
+
+.img-insight-6 {
+    background-image: url("/public/pexels-cookiecutter-1148820.jpg");
 }
 
 .card-insight h1 {
