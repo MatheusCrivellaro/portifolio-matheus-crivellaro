@@ -63,14 +63,6 @@ const InsightsContainer = ({ id }: props) => {
                     description="Conhecimento básico em Python e C#, adquirido através de estudos e pequenos projetos pessoais. Familiaridade com a sintaxe de ambas as linguagens e compreensão de conceitos fundamentais, como estruturas de dados e controle de fluxo."
                 />
             </div>
-            <div className="d-none">
-                <img src="/pexels-goumbik-574077.jpg" alt=""/>
-                <img src="/pexels-cookiecutter-1148820.jpg" alt=""/>
-                <img src="/pexels-pavel-danilyuk-5496463.jpg" alt=""/>
-                <img src="/pexels-luis-gomes-166706-546819.jpg" alt=""/>
-                <img src="/pexels-tranmautritam-326502.jpg" alt=""/>
-                <img src="/pexels-goumbik-574073.jpg" alt=""/>
-            </div>
         </div>
     )
 }
