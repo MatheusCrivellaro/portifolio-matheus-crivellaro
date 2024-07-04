@@ -57,6 +57,11 @@ const InsightsContainer = ({ id }: props) => {
                     title="Integração de APIs"
                     description="Experiência em consumir APIs de terceiros para integrar funcionalidades diversas em aplicações web. Habilidade em utilizar bibliotecas como Axios e Fetch para realizar requisições HTTP e manipular dados recebidos, aplicada em projetos de estudo e pessoais."
                 />
+                <div className="card-insight col-12 col-lg-4">
+                    <div className="image-insight" style={{backgroundImage: `url("/public/pexels-cookiecutter-1148820.jpg")`}}/>
+                    <h1>Conhecimento em Python e C#</h1>
+                    <h2>Conhecimento básico em Python e C#, adquirido através de estudos e pequenos projetos pessoais. Familiaridade com a sintaxe de ambas as linguagens e compreensão de conceitos fundamentais, como estruturas de dados e controle de fluxo.</h2>
+                </div>
                 <CardInsight
                     image="pexels-cookiecutter-1148820.jpg"
                     title="Conhecimento em Python e C#"
