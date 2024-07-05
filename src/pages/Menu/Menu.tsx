@@ -23,7 +23,7 @@ const Menu = () => {
                     </a>
                 </div>
                 <div className="item-select-menu margin-item-select-menu">
-                    <a className="item-select-menu-title" href="#about-me">
+                    <a className="item-select-menu-title" href="..#about-me">
                         <h1>Sobre mim</h1>
                         <h2>(02)</h2>
                     </a>
