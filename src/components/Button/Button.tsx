@@ -31,7 +31,7 @@ const Button = ({ onClick, children, size, color, border, expansive }: props) =>
     const classConfig = sizeConfig + " " + colorConfig + " " + borderConfig + " " + expansiveConfig
 
     return (
-        <button className={`button-basic shadow ${classConfig}`} onClick={onClick}>
+        <button className={`button-basic ${classConfig}`} onClick={onClick}>
             {children}
         </button>
     )

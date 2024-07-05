@@ -57,10 +57,11 @@ const InsightsContainer = ({id}: props) => {
             <div id="insightsmorecontainer" className="collapse cards-container-insight row order-3 order-md-4">
                 <div className="card-insight col-12 col-lg-4">
                     <div className="image-insight img-insight-4"/>
-                    <h1>Desenvolvimento de Sites Responsivos</h1>
-                    <h2>Habilidade em criar websites que se adaptam a diferentes dispositivos e tamanhos de tela,
-                        garantindo uma boa experiência de usuário. Conhecimento em HTML, CSS, e frameworks como
-                        Bootstrap para design responsivo, aplicado em projetos pessoais.</h2>
+                    <h1>Proficiente em Bancos de Dados</h1>
+                    <h2> Familiaridade com bancos de dados relacionais e não relacionais. Experiência na criação e
+                        gerenciamento de tabelas, execução de consultas SQL, e otimização de desempenho. Conhecimento
+                        prático em sistemas como MySQL, PostgreSQL e MongoDB, adquirido através de estudos e projetos
+                        pessoais.</h2>
                 </div>
                 <div className="card-insight col-12 col-lg-4">
                     <div className="image-insight img-insight-5"/>

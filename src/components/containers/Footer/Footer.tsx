@@ -14,18 +14,18 @@ const Footer = ({ id }:props) => {
             <h2>Me acompanhe nas demais redes!</h2>
             <div className="row">
                 <div className="div-buttons-footer col-md-5 col-12">
-                    <button className="button-footer col-6 col-md-12">
+                    <a className="button-footer col-6 col-md-12" href="https://github.com/MatheusCrivellaro" target="_blank">
                         <IoLogoGithub className="icon-button-footer"/>
-                        <a href="https://github.com/MatheusCrivellaro">GitHub</a>
-                    </button>
-                    <button className="button-footer col-6 col-md-12">
+                        <span>GitHub</span>
+                    </a>
+                    <a className="button-footer col-6 col-md-12"  href="https://www.linkedin.com/in/matheus-crivellaro/" target="_blank">
                         <FaLinkedin className="icon-button-footer"/>
-                        <a href="https://www.linkedin.com/in/matheus-crivellaro/">Linkedin</a>
-                    </button>
-                    <button className="button-footer col-6 col-md-12">
+                        <span>Linkedin</span>
+                    </a>
+                    <a className="button-footer col-6 col-md-12"  href="https://www.instagram.com/matcriv_" target="_blank">
                         <FaInstagram className="icon-button-footer"/>
-                        <a href="https://www.instagram.com/matcriv_">Instagram</a>
-                    </button>
+                        <span>Instagram</span>
+                    </a>
                     <p className="button-footer col-6 col-md-12">
                         <MdOutlineAlternateEmail className="icon-button-footer"/>
                         <span>matheuscriv@gmail.com</span>
@@ -50,7 +50,7 @@ const Footer = ({ id }:props) => {
                             <a href="" >Works 3</a>
                         </div>
                         <div className="col-md-3 col-6 group-link-footer">
-                            <a href="" >Insights</a>
+                            <a href="/#insights" >Insights</a>
                             <a href="" >Contacts</a>
                         </div>
                     </div>
