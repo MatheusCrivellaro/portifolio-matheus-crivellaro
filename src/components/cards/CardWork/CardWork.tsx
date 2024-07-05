@@ -5,7 +5,7 @@ import {RxArrowRight} from "react-icons/rx";
 const CardWork = () => {
     return (
         <div className="row card-work">
-            <div className="card-work-details col-md-6 col-12 order-2 order-md-1">
+            <div className="card-work-details col-md-5 col-12 order-2 order-md-1">
                 <div>
                     <h1>Project 1</h1>
                     <h2>2023 - Product design</h2>
@@ -18,7 +18,9 @@ const CardWork = () => {
                     </Button>
                 </div>
             </div>
-            <div className="card-work-img col-md-6 col-12 order-1 order-md-2" />
+            <div className="card-work-img-div col-md-7 col-12 order-1 order-md-2">
+                <div className="card-work-img"/>
+            </div>
         </div>
     )
 }
