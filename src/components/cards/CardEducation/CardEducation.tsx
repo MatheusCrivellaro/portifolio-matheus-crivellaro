@@ -15,7 +15,7 @@ const CardEducation = ({ title, description, link }: props) => {
                 <h2>{description}</h2>
             </div>
             <div>
-                <a className="education-button" href={link}>
+                <a className="education-button" href={link} target="_blank">
                     <RxArrowTopRight />
                 </a>
             </div>
