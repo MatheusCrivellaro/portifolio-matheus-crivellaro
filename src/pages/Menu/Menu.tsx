@@ -7,7 +7,7 @@ const Menu = () => {
     return (
         <div className="menu">
             <div className="div-selector-menu">
-                <CardSelectMenu name={"Home"} number={"01"} margin={true} href="apresentation"/>
+                <CardSelectMenu name={"Home"} number={"01"} margin={true} href="education"/>
                 <CardSelectMenu name={"Sobre mim"} number={"02"} margin={true} href="about-me"/>
                 <CardSelectMenu name={"Projetos"} number={"03"} margin={true} href="works"/>
                 <CardSelectMenu name={"Insights"} number={"04"} margin={true} href="insights"/>

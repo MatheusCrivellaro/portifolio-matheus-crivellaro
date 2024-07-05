@@ -16,6 +16,8 @@ const NavBar = () => {
 
         if (location.pathname === '/menu')
             contextoTema?.temaAlter("escuro");
+        if (location.pathname === '/')
+            contextoTema?.temaAlter("claro");
     }, [contextoTema, location.pathname])
 
     return (
