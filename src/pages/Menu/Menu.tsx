@@ -1,60 +1,16 @@
 import './Menu.css'
-import {RxArrowRight, RxArrowTopRight} from "react-icons/rx";
-import Button from "../../components/Button/Button.tsx";
-import {useContext} from "react";
-import {TemaNavContext} from "../../contexts/TemaNavContext.tsx";
+import CardSelectMenu from "../../components/cards/CardSelectMenu/CardSelectMenu.tsx";
+import {RxArrowTopRight} from "react-icons/rx";
 
 const Menu = () => {
-
-    const contextoTema = useContext(TemaNavContext)
 
     return (
         <div className="menu">
             <div className="div-selector-menu">
-                <div className="item-select-menu margin-item-select-menu">
-                    <a className="item-select-menu-title" href="/#apresentation">
-                        <h1>Home</h1>
-                        <h2>(01)</h2>
-                    </a>
-                    <a href="/#apresentation" className="d-none d-md-block">
-                        <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
-                            <RxArrowRight className="icon-container-select"/>
-                        </Button>
-                    </a>
-                </div>
-                <div className="item-select-menu margin-item-select-menu">
-                    <a className="item-select-menu-title" href="..#about-me">
-                        <h1>Sobre mim</h1>
-                        <h2>(02)</h2>
-                    </a>
-                    <a href="/#about-me" className="d-none d-md-block">
-                        <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
-                            <RxArrowRight className="icon-container-select"/>
-                        </Button>
-                    </a>
-                </div>
-                <div className="item-select-menu margin-item-select-menu">
-                    <a className="item-select-menu-title" href="/#works">
-                        <h1>Projetos</h1>
-                        <h2>(03)</h2>
-                    </a>
-                    <a href="/#works" className="d-none d-md-block">
-                        <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
-                            <RxArrowRight className="icon-container-select"/>
-                        </Button>
-                    </a>
-                </div>
-                <div className="item-select-menu margin-item-select-menu">
-                    <a className="item-select-menu-title" href="/#insights">
-                        <h1>Insights</h1>
-                        <h2>(04)</h2>
-                    </a>
-                    <a href="/#insights" className="d-none d-md-block">
-                        <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
-                            <RxArrowRight className="icon-container-select"/>
-                        </Button>
-                    </a>
-                </div>
+                <CardSelectMenu name={"Home"} number={"01"} margin={true} href="apresentation"/>
+                <CardSelectMenu name={"Sobre mim"} number={"02"} margin={true} href="about-me"/>
+                <CardSelectMenu name={"Projetos"} number={"03"} margin={true} href="works"/>
+                <CardSelectMenu name={"Insights"} number={"04"} margin={true} href="insights"/>
             </div>
             <div className="div-contacts-menu">
                 <h3>Me siga.</h3>

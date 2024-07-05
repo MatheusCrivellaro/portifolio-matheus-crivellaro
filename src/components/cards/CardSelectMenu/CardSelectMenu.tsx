@@ -3,6 +3,7 @@ import Button from "../../Button/Button.tsx";
 import {RxArrowRight} from "react-icons/rx";
 import {useContext} from "react";
 import {TemaNavContext} from "../../../contexts/TemaNavContext.tsx";
+import {Link} from "react-router-dom";
 
 type props = {
     name: string,
@@ -17,15 +18,15 @@ const CardSelectMenu = ({ name, number, margin, href }:props) => {
 
     return (
         <div className={`item-select-menu ${margin ? "margin-item-select-menu" : ""}`}>
-            <a className="item-select-menu-title" href={"../#" + href}>
+            <Link to={"/#" + href} className="item-select-menu-title">
                 <h1>{name}</h1>
                 <h2>({number})</h2>
-            </a>
-            <a href={"/#" + href} className="d-none d-md-block">
+            </Link>
+            <Link to={"/#" + href} className="d-none d-md-block">
                 <Button size={3} color={false} border={true} onClick={contextoTema?.alternarTema}>
                     <RxArrowRight className="icon-container-select"/>
                 </Button>
-            </a>
+            </Link>
         </div>
     )
 }
