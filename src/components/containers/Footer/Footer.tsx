@@ -35,14 +35,9 @@ const Footer = ({ id }:props) => {
                     <h3>Page list</h3>
                     <div className="div-page-list row">
                         <div className="col-md-3 col-6 group-link-footer">
-                            <a href="" >Home 1</a>
-                            <a href="" >Home 2</a>
-                            <a href="" >Home 3</a>
-                        </div>
-                        <div className="col-md-3 col-6 group-link-footer">
-                            <a href="" >About 1</a>
-                            <a href="" >About 2</a>
-                            <a href="" >About 3</a>
+                            <a href="/#apresentation">Home</a>
+                            <a href="/#about-me">Sobre mim</a>
+                            <a href="/#insights">Insights</a>
                         </div>
                         <div className="col-md-3 col-6 group-link-footer">
                             <a href="" >Works 1</a>
@@ -50,8 +45,7 @@ const Footer = ({ id }:props) => {
                             <a href="" >Works 3</a>
                         </div>
                         <div className="col-md-3 col-6 group-link-footer">
-                            <a href="/#insights" >Insights</a>
-                            <a href="" >Contacts</a>
+                            <a href="/#footer" >Contacts</a>
                         </div>
                     </div>
                 </div>

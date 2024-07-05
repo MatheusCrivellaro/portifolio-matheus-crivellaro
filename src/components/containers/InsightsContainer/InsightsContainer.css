@@ -124,6 +124,7 @@
     font-weight: 400;
     font-size: 18px;
     height: 70px;
+    margin-bottom: 28px;
 }
 
 @media (max-width: 768px) {
