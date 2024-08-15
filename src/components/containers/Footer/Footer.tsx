@@ -2,7 +2,6 @@ import './Footer.css'
 import {IoLogoGithub} from "react-icons/io";
 import {FaInstagram, FaLinkedin} from "react-icons/fa";
 import {MdOutlineAlternateEmail} from "react-icons/md";
-import logo from "../../../../public/Ativo%202.png"
 
 type props = {
     id: string
@@ -11,7 +10,7 @@ type props = {
 const Footer = ({ id }:props) => {
     return (
         <div className="container-footer" id={id}>
-            <h1><img src={logo} alt="" className="logo-footer"/> portifólio.</h1>
+            <h1><img src="../../../../public/Ativo%202.png" alt="" className="logo-footer"/> portifólio.</h1>
             <h2>Me acompanhe nas demais redes!</h2>
             <div className="row">
                 <div className="div-buttons-footer col-md-5 col-12">
