@@ -94,7 +94,7 @@
 
 .card-work-img {
     border-radius: 0 24px 24px 0;
-    background-image: url("/public/pexels-goumbik-574073.jpg");
+    background-image: url("/src/images/pexels-goumbik-574073.jpg");
     background-position: center;
     background-size: cover;
     height: 80vh;

@@ -2,7 +2,7 @@ import './Footer.css'
 import {IoLogoGithub} from "react-icons/io";
 import {FaInstagram, FaLinkedin} from "react-icons/fa";
 import {MdOutlineAlternateEmail} from "react-icons/md";
-import logo from "../../../../public/Ativo%202.png";
+import logo from "../../../../public/Ativo 2.png";
 
 type props = {
     id: string
