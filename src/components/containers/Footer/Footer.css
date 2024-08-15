@@ -11,7 +11,7 @@
 
 .container-footer h1 {
     color: #e5e7eb;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
     display: flex;
@@ -28,6 +28,7 @@
 @media (max-width: 768px) {
     .container-footer h2 {
         margin-bottom: 24px;
+        font-size: 18px;
     }
 }
 
@@ -118,4 +119,10 @@
 .logo-footer {
     width: 36px;
     margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+    .logo-footer {
+        width: 28px;
+    }
 }

@@ -39,6 +39,12 @@
     justify-content: end;
 }
 
+@media (max-width: 768px) {
+    .div-button-works {
+        display: block;
+    }
+}
+
 .div-button-works a {
     text-decoration: none;
 }

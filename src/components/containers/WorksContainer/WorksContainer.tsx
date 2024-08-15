@@ -15,9 +15,7 @@ const WorksContainer = ({ children, id }: props) => {
             <div className="col-12 col-md-6 order-4 order-md-2 div-button-works">
                 <a href="https://github.com/MatheusCrivellaro?tab=repositories" target="_blank">
                     <Button color={true} size={3} expansive={true}>
-                    <span>
-                        Ver todos os projetos
-                    </span>
+                        <span>Ver todos os projetos</span>
                         <RxArrowRight className="header-icon-container-works"/>
                     </Button>
                 </a>
