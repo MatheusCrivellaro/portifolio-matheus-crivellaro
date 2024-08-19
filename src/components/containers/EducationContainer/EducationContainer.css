@@ -1,7 +1,7 @@
 .container-education {
     background: #f9fafb;
     display: flex;
-    margin: 72px 0;
+    margin: 64px 0;
 }
 
 @media (max-width: 768px) {

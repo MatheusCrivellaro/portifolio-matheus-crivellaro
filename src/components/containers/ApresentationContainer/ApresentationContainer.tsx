@@ -11,7 +11,7 @@ const ApresentationContainer = ({ id }:props) => {
     return (
         <div className="container-apresentation" id={id}>
             <h2>Olá! Sou o Matheus</h2>
-            <h1>Developer FullStack com ênfase em <span>Java e React</span></h1>
+            <h1>Developer BackEnd com ênfase em <span>Java e Spring Boot</span></h1>
             <div className="sub-div-apresentation row">
                 <div className="col-12 col-md-6 order-2 order-md-1">
                     <Button color={false} size={4} expansive={true}>
@@ -20,7 +20,7 @@ const ApresentationContainer = ({ id }:props) => {
                     </Button>
                 </div>
                 <p className="col-12 col-md-6 order-1 order-md-2">
-                    Desenvolvedor Full Stack que utiliza a programação para transformar ideias digitais em realidade.
+                    Desenvolvedor BackEnd que utiliza a programação para transformar ideias digitais em realidade.
                 </p>
             </div>
         </div>
